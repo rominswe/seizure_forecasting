@@ -1,0 +1,28 @@
+# Ignore all data
+data/
+features/
+physionet.org/
+processed/
+
+
+# Ignore models but not CSV results
+results/XGBoost/
+results/RandomForest/
+results/HistGradientBoostingClassifier/
+results/Autoencoder_XGB/*.joblib
+
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model files (optional, if you don't want to push them)
+*.h5
+*.joblib
