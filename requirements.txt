@@ -1,1 +1,1 @@
-  README.md main.py
+setuptools==80.9.0
